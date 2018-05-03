@@ -129,7 +129,7 @@ You must put them in this file!
 * ######## FOR PUZZLES AND PROJECTS #########
 A more Brother Neff-like assignment, with a Brother Benning twist!
 
-Please Complete all Problems and Puzzles including the 'optional ones'.
+Please Complete all Problems and Puzzles including the 'optional ones', but skipping the exercises.
 I would recommend working together.  As always I will give out hints
 periodically.
 
