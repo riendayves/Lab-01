@@ -85,6 +85,353 @@ but if you start at 3rd then you need to do the 6th.
 
 You must put them in this file!
 
+
+
+* Exercises
+** TODO UCA
+#+begin_note
+  Start your exercise warmup by thinking up three examples and three
+  non-examples of propositions. Make them pithy.
+#+end_note
+#+begin_info
+  examples:
+  computers are programable.
+  1 + 1 = 2
+  my name is Ryan.
+  non-example:
+  go running.
+  
+#+end_info
+** TODO ODS
+#+begin_note
+  Which of the following sentences are propositions? For each proposition, give
+  its truth value (true or false).
+  1. 2 + 2 = 4.
+  2. 2 + 1 = 4.
+  3. Toronto is the capital of Germany.
+  4. Read these questions carefully.
+  5. x + y + z = q.
+  6. What time is it?
+  7. 2x + 3 = 9.
+  8. Simon says jump.
+#+end_note
+#+begin_info
+  2 + 2 = 4, true.
+  2 + 1 = 4, false.
+  Toronto is the capital of Germany, false.
+  5. x + y + z = q, unknown - based on what x, y, z, and q are.
+  7. 2x + 3 = 9, unknown - based on what x is.
+#+end_info
+** TODO UGX
+#+begin_note
+  Put the proposition \ldquo{} /v/ is a member of the set of English alphabet
+  consonants\rdquo in symbolic logic terms, using /C/ as the name of the set of
+  consonants.
+:HINT:
+  - Hint :: This is very straightforward. Three symbols are all that are called
+            for.
+:END:
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OGR
+#+begin_note
+  Which of the following are simple (not compound) propositions?
+
+  1. Weeks are shorter than months.
+  2. Days are longer than hours and minutes.
+  3. Hours are longer than minutes and seconds are shorter than minutes.
+  4. People can fly or pigs can sing.
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO UWM
+#+begin_note
+  Express in English the negation of each of these propositions:
+
+  1. Two plus two equals four.
+  2. Two plus one is less than four.
+  3. Toronto is the capital of Germany.
+  4. A total eclipse happens infrequently.
+  5. Special measures must be taken to deal with the current situation.
+:HINT:
+  Do /not/ just prefix each proposition with \lsquo{}It is not the case that\rsquo.
+:END:
+#+end_note
+#+begin_info
+  Two plus two does not equals four.
+  Two plus one is greater than four.
+  Toronto is not the capital of Germany.
+  A total eclipse happens frequently.
+  Special measures dont need to be taken to deal with the current situation.
+#+end_info
+** TODO OPZ
+#+begin_note
+  Let /p/ and /q/ be the propositions:
+
+  /p/: I studied.
+
+  /q/: I got an F on the test.
+
+  Express each of the propositions below as an English sentence:
+  1. \not /p/
+  2. /p/ \lor /q/
+  3. /p/ \land /q/
+  4. \not /p/ \land \not /q/
+  5. \not /p/ \lor /q/
+  6. \not (/p/ \lor /q/)
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO UOX
+#+begin_note
+  What other special forms besides =if= does elisp have for doing conditionals?
+  Why are they called \ldquo{}special\rdquo?
+:HINT:
+  - Hint :: You can find at least six.
+:END:
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OTX
+#+begin_note
+  Determine whether these sentences use an inclusive or, or an exclusive or:
+  1. A side of fries or chips comes with your sandwich.
+  2. A high school diploma or a GED are needed for this position.
+  3. To get your license, you must provide your social security card or birth certificate.
+  4. We accept Mastercard or Visa credit cards.
+  5. You can cash in your tickets or exchange them for a prize.
+  6. Take it or leave it.
+#+end_note
+#+begin_info
+  1. exclusive
+  2. inclusive
+  3. inclusive
+  4. inclusive
+  5. exclusive
+  6. exclusive
+#+end_info
+** TODO UOT
+#+begin_note
+  Return to the task of comparing the two expressions:
+
+  1. =p and (q or not r)=
+  2. =(p and q) or not r=
+
+  Build a truth table of expression 2 and compare it with the truth table of
+  expression 1 given just above.
+:HINT:
+  - Hint :: The two truth tables differ in two places.
+:END:
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO UIN
+#+begin_note
+  What is the set difference between the set of letters in the English alphabet
+  and the set of letters in the Hawaiian alphabet?
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OJL
+#+begin_note
+  Justify where $p = x \in A, q = x \in B, r = x \in C$:
+
+  | Set | As Union of   | Logic \equiv Set Operation Description                                             |
+  |-----+---------------+-------------------------------------------------------------------------------|
+  | A   | 4 \cup 5 \cup 7 \cup 6 | $(p \land \lnot q \land \lnot r) \lor (p \land \lnot q \land r) \lor (p \land q \land r) \lor (p \land q \land \lnot r)$ |
+  | B   | 2 \cup 3 \cup 7 \cup 6 | $(\lnot p \land q \land \lnot r) \lor (\lnot p \land q \land r) \lor (p \land q \land r) \lor (p \land q \land \lnot r)$ |
+  | C   | 1 \cup 3 \cup 5 \cup 7 | $(\lnot p \land \lnot q \land r) \lor (\lnot p \land q \land r) \lor (p \land \lnot q \land r) \lor (p \land q \land r)$ |
+:HINT:
+  - Hint :: The exercise could be more explicitly stated as: Provide
+            justification for the equivalence of the logical and set operation
+            description (columns 3 and 2) for each set (column 1) in the table.
+            So, use wording like \ldquo{}Set A is justified as the union of numbered
+            regions 4, 5, 7 and 6, because \dots\rdquo.
+:END:
+#+end_note
+#+begin_info
+  Set A is justified because the logic discription is the binary equivalants of 
+the numbers. If true = 1 and false = 0 than we get 100, 101, 111, 110.
+  Set B is justified for the same reason but with different numbers. If true = 1
+and false = 0 than we get 010, 011, 111, 110.
+  Set C is justified for the same reason as the first two. If true = 1 and false
+= 0 than we get 001, 011, 101, 111.
+#+end_info
+** TODO UCG
+#+begin_note
+  Let set *A* = =[verve vim vigor]=, set *B* = =[butter vinegar pepper vigor]=.
+  For each of the following set operations, give its resulting members (as a
+  vector of symbols):
+
+  1. The set of words that are in A *or* B; call this set *C*.
+  2. The set of words that are in A *and* B; call this set *D*.
+  3. The subset of set *C* of words that start with \lsquo{}v\rsquo.
+  4. The subset of set *C* of words that end with \lsquo{}r\rsquo.
+  5. The subset of set *C* of words that start with \lsquo{}v\rsquo and end with \lsquo{}r\rsquo.
+  6. The subset of set *D* of words that have six letters.
+:HINT:
+  - Hint :: This is also very straightforward. But see if you can write some
+            elisp code to help you find the answers!
+:END:
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OQT
+#+begin_note
+  Let /p/ and /q/ be the propositions:
+
+  /p/: I studied.
+
+  /q/: I got an A on the test.
+
+  Express each of the propositions below as an English sentence:
+  1. /p/ \rarr /q/
+  2. \not /p/ \lor \not /q/
+  3. \not /p/ \rarr (p \lor q)
+  4. \not /p/ \rarr \not /q/
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO UTQ
+#+begin_note
+  Let /p/ and /q/ be the propositions:
+
+  /p/: You applied for admission at BYU-Idaho.
+
+  /q/: You were accepted.
+
+  Express these sentences as propositions using logical connectives.
+  1. You applied for admission at BYU-Idaho and were accepted.
+  2. You did not apply for admission at BYU-Idaho but were still accepted.
+  3. You applied for admission at BYU-Idaho but were not accepted.
+  4. Either you did not apply for admission at BYU-Idaho and didn\rsquo{}t get accepted
+     or you did apply and got accepted.
+#+end_note
+#+begin_info
+  1. p ^ q.
+  2. ~p ^ q.
+  3. p ^ ~q.
+  4. (p ^ q) ⊕ (~p ^ ~q).  
+#+end_info
+** TODO UJU
+#+begin_note
+  Use truth tables to verify the /commutative/ laws.
+  1. $p \vee q \equiv q \vee p$
+  2. $p \wedge q \equiv q \wedge p$
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OLH
+#+begin_note
+  Use truth tables to verify the associative laws.
+  1. $(p \vee q) \vee r \equiv p \vee (q \vee r)$
+  2. $(p \wedge q) \wedge r \equiv p \wedge (q \wedge r)$
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO UWY
+#+begin_note
+  Use truth tables to verify the distributive laws.
+  1. $p \wedge (q \lor r) \equiv (p \wedge q) \lor (p \wedge r)$.
+  2. $p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r)$.
+#+end_note
+#+begin_info
+  1. 
+| pqr | p \wedge (q \lor r) | (p \wedge q) \lor (p \wedge r) |
+| 000 |           0 |                 0 |
+| 001 |           0 |                 0 |
+| 010 |           0 |                 0 |
+| 011 |           0 |                 0 |
+| 100 |           0 |                 0 |
+| 101 |           1 |                 1 |
+| 110 |           1 |                 1 |
+| 111 |           1 |                 1 |
+
+  2. 
+| pqr | p \vee (q \wedge r) | (p \vee q) \wedge (p \vee r) |
+| 000 |           0 |                 0 |
+| 001 |           0 |                 0 |
+| 010 |           0 |                 0 |
+| 011 |           1 |                 1 |
+| 100 |           1 |                 1 |
+| 101 |           1 |                 1 |
+| 110 |           1 |                 1 |
+| 111 |           1 |                 1 |
+#+end_info
+** TODO OBW
+#+begin_note
+  Use truth tables to verify De Morgan\rsquo{}s laws:
+  1. $\neg (p \vee q) \equiv \neg p \wedge \neg q$
+  2. $\neg (p \wedge q) \equiv \neg p \vee \neg q$
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO USL
+#+begin_note
+  Use truth tables to verify some miscellaneous laws, letting $\mathbf{1}$ =
+  true, $\mathbf{0}$ = false:
+  1. $p \land \mathbf{1} \equiv p$ (idempotence)
+  2. $p \lor \mathbf{0} \equiv p$ (idempotence)
+  3. $\lnot \lnot p \equiv p$ (double negation)
+  4. $p \land \mathbf{0} \equiv \mathbf{0}$ (absorption)
+  5. $p \lor \mathbf{1} \equiv \mathbf{1}$ (absorption)
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+** TODO OYP
+#+begin_note
+  Match the following set identities with their counterparts in the
+  miscellaneous logic laws:
+
+  1. A \cap U = A
+  2. A \cup U = U.
+  3. A \cup \empty = A.
+  4. A \cap \empty = \empty.
+  5. $\overline{\overline{\mathsf{A}}} = \mathsf{A}$.
+#+end_note
+#+begin_info
+  1. Identity law
+  2. Annulment law
+  3. Identity law
+  4. Annulment law
+#+end_info
+** TODO UBV
+#+begin_note
+  Use DeMorgan's Laws to find the negations of the propositions:
+  1. Winning the first round is necessary for winning the trophy.
+  2. Winning the tournament is sufficient for winning the trophy.
+  3. I am powerful and successful.
+  4. You can pass or fail this test.
+  5. Getting an A on the final exam is necessary and sufficient for passing this class.
+#+end_note
+#+begin_info
+  Your answer goes here.
+#+end_info
+
+
+
+
+
+
+
+
+
+
+
+
 * DO NOT INCLUDE THIS PART BELOW FOR THE LAB
 * ######## FOR PUZZLES AND PROJECTS #########
 A more Brother Neff-like assignment, with a Brother Benning twist!
